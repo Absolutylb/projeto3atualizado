@@ -1,0 +1,45 @@
+:root{
+    --blue:#0000ff ;
+    --white:#FFF;
+    --cinza: #a5a5a5;
+    --black: #000;
+}
+body{
+    background-color: var(--white);
+}
+
+
+
+nav{
+    background-color: var(--cinza);
+ }
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+article{
+    padding: 0.8rem;
+    background-color: var(--white);
+   color:  var(--black);
+}
+footer{
+    text-align: center;
+    color: var(--black);
+    background-color: var(--white);
+}
+div{
+
+}
+a{
+    font-family:   'Arial Narrow Bold', sans-serif;
+    transition: 1s;
+}
+a:link{
+font-size: 25px;
+}
+a:hover{
+color: #0000ff;
+font-size: 25px;
+}
